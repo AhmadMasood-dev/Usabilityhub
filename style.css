@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -46,6 +46,7 @@ ul{
   background-image: url(img/asset\ 32.png);
   background-size: 300px;
   background-color: #4fb3d4;
+  margin-bottom: 10px;
 }
 .container {
   max-width: 1180px;
@@ -67,9 +68,28 @@ ul{
 }
 .primary-button{
  background-color:  var(--accent-color);
-  border-radius: 6x;
-  font-weight: 700;
+  border-radius: 6px;
+  font-weight: 500;
   color: white !important;
+  padding: 8px 10px;
+  box-shadow: 0 0 2px var(--secondary-text-color);
+  transition: 2s ease-out;
+}
+.primary-button:hover{
+  background-color: var(--accent-color-dark);
+}
+.secondary-button{
+  border: 0.5px solid var(--secondary-text-color);
+ 
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--primary-text-color) !important;
+  padding: 8px 10px;
+  transition: 0.2s ease-out;
+}
+.secondary-button:hover{
+  border-color: var(--accent-color);
+  color: var(--accent-color) !important;
 }
 .small-bold-text {
   font-size: 1rem;
