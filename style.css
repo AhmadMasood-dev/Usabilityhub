@@ -139,7 +139,40 @@ header {
 .logos{
   justify-content: space-between;
   flex-wrap: wrap;
+  
 }
 .logo{
   height: 40px;
+}
+
+/* Feature section */
+.feature-section{
+  padding: 80px var(--padding-inline-section) 0;
+  background-image: url(img/asset\ 34.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.feature-header{
+  text-align: center;
+}
+.feature-heading-text{
+  margin-bottom: 20px;
+}
+.features-area{
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 20px;
+  
+}
+.features-card{
+  flex-direction: column;
+  gap: 20px;
+  max-width: 30%;
+  text-align: center;
+  padding: 15px;
+  
+}
+.features-card h3{
+  font-size: 27px;
 }
