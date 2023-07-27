@@ -190,3 +190,62 @@ header {
   flex-direction: column;
   align-items: flex-start;
 }
+/* Example section */
+.secondary-button i{
+  padding-left:8px ;
+}
+.example-header{
+  flex-direction: column;
+  gap: 20px;
+}
+.examples-area{
+  justify-content: space-between;
+  margin-block: 30px;
+}
+.examples-card{
+  width: 23%;
+  position: relative;
+  min-height: 340px;
+  background: black;
+  background:linear-gradient( rgb(0, 0, 0,0.1),rgb(0, 0, 0,0.8)), url(img/asset\ 37.jpeg);
+  background-size: cover;
+  transition: 0.4s ease-out;
+  border-radius: 6px;
+}
+.examples-card:nth-child(2){
+  background:linear-gradient( rgb(0, 0, 0,0.1),rgb(0, 0, 0,0.8)), url(img/asset\ 36.jpeg);
+  background-size: cover;
+}
+.examples-card:nth-child(3){
+  background:linear-gradient( rgb(0, 0, 0,0.1),rgb(0, 0, 0,0.8)), url(img/asset\ 38.jpeg);
+  background-size: cover;
+}
+.examples-card:nth-child(4){
+  background:linear-gradient( rgb(0, 0, 0,0.1),rgb(0, 0, 0,0.8)), url(img/asset\ 39.jpeg);
+  background-size: cover;
+}
+.examples-card:hover{
+  box-shadow: 0 0 10px #888;
+}
+.card-text{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  color: white;
+  font-size: 1.2rem;
+
+}
+.cta-section-container{
+  flex-direction: column;
+  gap: 35px;
+  color: white;
+}
+.cta-section{
+  background-color: #183b54;
+  padding: 120px var(--padding-inline-section) 80px;
+}
+.cta-section-container p{
+  color: white;
+  margin-top: 20px;
+}
