@@ -9,8 +9,23 @@
     display: block;
     margin-right: 20px;
   }
+  .main-nav {
+    overflow: initial;
+  }
   .nav-links {
-    display: none;
+    position: absolute;
+    background-color: white;
+    left: -100%;
+    top: 100%;
+    width: 100%;
+    padding-block: 20px;
+    transition: 0.2s ease-in-out;
+  }
+  .nav-links:hover {
+    left: 0;
+  }
+  .nav-links ul {
+    flex-direction: column;
   }
   .examples-area {
     gap: 20px;
@@ -69,5 +84,8 @@
   }
   .features-card {
     min-width: 100%;
+  }
+  .examples-card {
+    width: 100%;
   }
 }
