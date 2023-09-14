@@ -282,9 +282,11 @@
 
     <script>
       const togglButton = document.getElementById("nav-toggle");
+      console.log('togglButton' , togglButton);
       const navlinks = document.getElementById("nav-links");
-      togglButton,
+      togglButton.
         addEventListener("click", () => {
+          console.log('clicked');
           navlinks.classList.toggle("active");
         });
     </script>
